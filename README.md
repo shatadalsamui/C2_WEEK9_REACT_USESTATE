@@ -1,12 +1,54 @@
-# React + Vite
+# React useState Examples
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates various patterns and best practices for using React's useState hook effectively.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fundamental useState examples
+- Complex state management patterns
+- State lifting and sharing between components
+- Performance optimization techniques
+- Common pitfalls and solutions
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone this repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run the development server:
+```bash
+npm run dev
+```
+
+## Examples Included
+
+1. Basic useState usage
+2. Object state management
+3. Array state management
+4. Derived state patterns
+5. State persistence techniques
+6. Performance optimization with useMemo/useCallback
+
+## Best Practices
+
+- Keep state localized when possible
+- Use multiple state variables for independent values
+- Lift state up when sharing between components
+- Avoid deeply nested state objects
+- Consider state management libraries for complex applications
+
+## Technologies Used
+
+- React 18+
+- Vite
+- Modern JavaScript (ES6+)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+## License
+
+MIT
